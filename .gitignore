@@ -1,5 +1,6 @@
 # Don't check auto-generated stuff into git
-#node_modules
+#!node_modules/web3
+node_modules
 coverage
 lib
 
