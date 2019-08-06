@@ -1,4 +1,4 @@
-## ethjs-unit
+## ledethjs-unit
 
 <div>
   <!-- Dependency Status -->
@@ -37,7 +37,7 @@
 
 <br />
 
-A simple module for handling Ethereum unit convertion.
+A simple module for handling Ledgerium unit convertion.
 
 ## Install
 
