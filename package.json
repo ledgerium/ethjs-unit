@@ -1,6 +1,6 @@
 {
-  "name": "ethjs-unit",
-  "version": "0.1.6",
+  "name": "ethjs-unit-ledgerium",
+  "version": "0.1.7",
   "description": "A simple module for handling Ethereum units (e.g. 'xlg', 'wei', etc...)",
   "main": "lib/index.js",
   "files": [
@@ -188,11 +188,16 @@
       "name": "Jeffery Wilcke",
       "email": "jeff@ethdev.com",
       "url": "https://github.com/obscuren"
+    },
+    {
+      "name": "Rahul Golash",
+      "email": "rahul.g@ledgerium.io",
+      "url": "https://github.com/golashr"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethjs/ethjs-unit"
+    "url": "git://github.com/ledgerium-io/ethjs-unit-ledgerium"
   },
   "license": "MIT",
   "lint-staged": {

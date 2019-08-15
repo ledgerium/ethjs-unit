@@ -1,4 +1,4 @@
-## ledethjs-unit
+## ethjs-unit-ledgerium
 
 <div>
   <!-- Dependency Status -->
@@ -19,7 +19,7 @@
   </a>
 
   <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/ethjs-unit">
+  <a href="https://www.npmjs.org/package/ethjs-unit-ledgerium">
     <img src="http://img.shields.io/npm/v/ethjs-unit.svg"
     alt="NPM version" />
   </a>
@@ -37,18 +37,18 @@
 
 <br />
 
-A simple module for handling Ledgerium unit convertion.
+A simple module for handling Ledgerium unit conversion.
 
 ## Install
 
 ```
-npm install --save ledethjs-unit
+npm install --save ethjs-unit-ledgerium
 ```
 
 ## Usage
 
 ```js
-const unit = require('ledethjs-unit');
+const unit = require('ethjs-unit-ledgerium');
 
 var val1 = unit.toWei(249824778, 'xlg');
 
@@ -125,10 +125,10 @@ Please help better the ecosystem by submitting issues and pull requests to defau
 
 ## Guides
 
-You'll find more detailed information on using `ledethjs-unit` and tailoring it to your needs in our guides:
+You'll find more detailed information on using `ethjs-unit-ledgerium` and tailoring it to your needs in our guides:
 
 - [User guide](docs/user-guide.md) - Usage, configuration, FAQ and complementary tools.
-- [Developer guide](docs/developer-guide.md) - Contributing to `ledethjs-unit`, writing coverage and updates.
+- [Developer guide](docs/developer-guide.md) - Contributing to `ethjs-unit-ledgerium`, writing coverage and updates.
 
 ## Help out
 
@@ -137,7 +137,7 @@ There is always a lot of work to do, and will have many rules to maintain. So pl
 - Create, enhance, and debug ethjs rules (see our guide to ["Working on rules"](./github/CONTRIBUTING.md)).
 - Improve documentation.
 - Chime in on any open issue or pull request.
-- Open new issues about your ideas for making `ledethjs-unit` better, and pull requests to show us how your idea works.
+- Open new issues about your ideas for making `ethjs-unit-ledgerium` better, and pull requests to show us how your idea works.
 - Add new tests to *absolutely anything*.
 - Create or contribute to ecosystem tools, like modules for encoding or contracts.
 - Spread the word.
