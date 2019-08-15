@@ -61,13 +61,13 @@ var val2 = unit.fromWei('249824778000000000000000000', 'xlg');
 
 ## About
 
-A port from the `web3.js` library, that just handles the unit convertion between the various types of Ethereum currency units.
+A port from the `web3.js` library, that just handles the unit convertion between the various types of Ledgerium currency units.
 
 Note, the `toWei` returns a BN instance while `fromWei` always returns a string number.
 
 ## Amorphic Data Formatting
 
-`ethjs-unit` uses the [number-to-bn](http://github.com/silentcicero/number-to-bn) module to format all number values (hex or otherwise) into digestable BN.js number instances.
+`ethjs-unit-ledgerium` uses the [number-to-bn](http://github.com/silentcicero/number-to-bn) module to format all number values (hex or otherwise) into digestable BN.js number instances.
 
 ## Methods Available & Objects
 
@@ -115,9 +115,9 @@ fromWei         <Function (value, unit) : (String)>
 
   1. Lighter than alternatives (BigNumber.js)
   2. Faster than most alternatives, see [benchmarks](https://github.com/indutny/bn.js/issues/89)
-  3. Used by the Ethereum foundation across all [`ethereumjs`](https://github.com/ethereumjs) repositories
+  3. Used by the Ledgerium foundation across all [`ethereumjs`](https://github.com/ethereumjs) repositories
   4. Is already used by a critical JS dependency of many ethereum packages, see package [`elliptic`](https://github.com/indutny/elliptic)
-  5. Does not support decimals or floats (for greater precision), remember, the Ethereum blockchain cannot and will not support float values or decimal numbers
+  5. Does not support decimals or floats (for greater precision), remember, the Ledgerium blockchain cannot and will not support float values or decimal numbers
 
 ## Contributing
 
