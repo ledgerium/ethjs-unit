@@ -115,7 +115,7 @@ fromWei         <Function (value, unit) : (String)>
 
   1. Lighter than alternatives (BigNumber.js)
   2. Faster than most alternatives, see [benchmarks](https://github.com/indutny/bn.js/issues/89)
-  3. Used by the Ledgerium foundation across all [`ethereumjs`](https://github.com/ethereumjs) repositories
+  3. Used by the Ethereum foundation across all [`ethereumjs`](https://github.com/ethereumjs) repositories
   4. Is already used by a critical JS dependency of many ethereum packages, see package [`elliptic`](https://github.com/indutny/elliptic)
   5. Does not support decimals or floats (for greater precision), remember, the Ledgerium blockchain cannot and will not support float values or decimal numbers
 

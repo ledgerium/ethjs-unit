@@ -5362,7 +5362,7 @@ var numberToBN = __webpack_require__(2);
 var zero = new BN(0);
 var negative1 = new BN(-1);
 
-// complete ethereum unit map
+// complete Ledgerium unit map
 var unitMap = {
   'noether': '0', // eslint-disable-line
   'wei': '1', // eslint-disable-line

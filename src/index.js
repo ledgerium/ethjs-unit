@@ -12,7 +12,7 @@ const numberToBN = require('number-to-bn');
 const zero = new BN(0);
 const negative1 = new BN(-1);
 
-// complete ethereum unit map
+// complete Ledgerium unit map
 const unitMap = {
   'noether':      '0', // eslint-disable-line
   'wei':          '1', // eslint-disable-line

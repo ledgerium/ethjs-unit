@@ -29,7 +29,7 @@ var val2 = unit.fromWei('7282837', 'xlg');
 
 [index.js:ethjs-unit](../../../blob/master/src/index.js "Source code on GitHub")
 
-Convert a single Ethereum denominated value at a specified unit, and convert it to its `wei` value. Intakes a `value` and `unit` specifier, outputs a single wei value `BN` object.
+Convert a single Ledgerium denominated value at a specified unit, and convert it to its `wei` value. Intakes a `value` and `unit` specifier, outputs a single wei value `BN` object.
 
 **Parameters**
 
@@ -50,7 +50,7 @@ var val1 = unit.toWei(249824778, 'xlg');
 
 [index.js:ethjs-unit](../../../blob/master/src/index.js "Source code on GitHub")
 
-Convert a wei denominated value into another Ethereum denomination. Intakes a single wei `value` and outputs a BN object.
+Convert a wei denominated value into another Ledgerium denomination. Intakes a single wei `value` and outputs a BN object.
 
 **Parameters**
 
